@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    Color: white;
+    font-family: 'Cookie', cursive;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color:white;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(51, 44, 44);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(51, 44, 44);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url(./gambar/compileofficial2.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: rgba(51, 44, 44, 0.473);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.anime{
+    color: white;
+    background-color: black;
+}
+.anime img{
+    clip-path: circle();
+    width: 300px;
+    box-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.row h4{
+    color:white;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.trending{
+    background-color: black;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgb(51, 44, 44);
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 17px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 0px 0px 17px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px 0px 17px 0px rgba(255,255,255,0.75);
+    transition: 0.5s;
+}
+
+.tissue{
+    background: url(./gambar/tisu6.png)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.tissue h1{
+    font-family: 'Cookie', cursive;
+}
+
+.news{
+    background-color:  rgb(15, 15, 15);
+    color: white;
+}
+
+.btn2{
+    height: 46px;
+    width: 100px;
+    background:white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+    color:black;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: rgb(15, 15, 15);
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.news::placeholder{
+    color:white;
+}
+
+.news p{
+    margin: 0;
+}
+
+.fa{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
