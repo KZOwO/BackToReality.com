@@ -46,7 +46,7 @@
 }
 
 .main{
-    background: url('Gambar/CompileOfficial2.png')no-repeat;
+    background: url("Gambar/CompileOfficial2.png")no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: 50% 50%;
@@ -108,7 +108,7 @@ h1{
 }
 
 .tissue{
-    background: url('Gambar/Tisu6.png')no-repeat;
+    background: url("Gambar/Tisu6.png")no-repeat;
     background-size: cover;
     height: 80vh;
     width: 100%;
